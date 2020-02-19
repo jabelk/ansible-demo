@@ -2,14 +2,12 @@ ssh 'developer@10.10.20.50'
 
 device info
 ```
- router1
- 172.16.30.69   
- router2
- 172.16.30.70 
+[all:vars]
+ansible_user=cisco
+ansible_ssh_pass=cisco
+ansible_connection=network_cli
 
-username 
-cisco
-
-password
-cisco
+[ios_devices]
+ios-1 ansible_network_os=ios ansible_host=172.16.30.72
+ios-2 ansible_network_os=ios ansible_host=172.16.30.73
 ```
