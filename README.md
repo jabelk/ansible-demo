@@ -1,5 +1,5 @@
 ssh 'developer@10.10.20.50'
-
+kahfdkjalfd
 device info
 ```
 [all:vars]
