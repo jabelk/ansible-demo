@@ -1,3 +1,9 @@
+
+
+pip install -r requirements.txt
+ansible-galaxy collection install -r requirements.yaml
+
+
 ssh 'developer@10.10.20.50'
 
 device info
